@@ -28,6 +28,11 @@ body {
     color: #colors[textColor];
 }
 
+
+li {
+    list-style: none;
+}
+
 .container {
     max-width: 960px;
     .centralizaImg();
@@ -77,12 +82,35 @@ header {
     .centralizaImg();
 
     li {
-        list-style: none;
-
         img {
             transition: all ease .3s;
             &:hover {
                 transform: scale(1.3);
+            }
+        }
+    }
+}
+
+.projects-list {
+    margin-top: 37px;
+
+    &-item {
+        a {
+            text-decoration: none;
+            background-color: #colors[buttonColor];
+            display: block;
+            padding: 16px 20px;
+            margin-bottom: 16px;
+            text-align: center;
+            color: #colors[textColor];
+            font-weight: bold;
+            border-radius: 30px;
+            border: 2px solid #colors[buttonColor];
+            transition: all ease .5s;
+
+            &:hover {
+                color: #colors[buttonColor];
+                background-color: transparent;
             }
         }
     }

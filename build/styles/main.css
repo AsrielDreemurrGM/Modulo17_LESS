@@ -45,8 +45,14 @@ header {
 }
 header .profile-avatar {
   display: block;
-  margin: 0 auto 24px;
+  margin: 70px auto 24px;
   border-radius: 50%;
+  width: 256px;
+}
+@media (max-width: 767px) {
+  header .profile-avatar {
+    width: 196px;
+  }
 }
 .profile-bio {
   text-align: center;

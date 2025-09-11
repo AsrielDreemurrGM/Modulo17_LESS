@@ -40,7 +40,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     @media @breakpointTablet {
         max-width: 80%;
     }
@@ -55,8 +55,13 @@ header {
 
     .profile-avatar {
         display: block;
-        margin: 0 auto 24px;
+        margin: 70px auto 24px;
         border-radius: 50%;
+        width: 256px;
+
+        @media @breakpointMobile {
+            width: 196px;
+        }
     }
 }
 
@@ -73,7 +78,7 @@ header {
         .marginBotton8();
     }
 
-    &-description{
+    &-description {
         .fontSize14();
         opacity: 0.7;
     }
@@ -88,6 +93,7 @@ header {
     li {
         img {
             transition: all ease .3s;
+
             &:hover {
                 transform: scale(1.3);
             }

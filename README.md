@@ -16,11 +16,15 @@
   <li>CSS3 / LESS</li>
   <li>Feather Icons</li>
   <li>LESS Watch Compiler</li>
+  <li>copyfiles (copy HTML and images)</li>
+  <li>chokidar-cli (watch for file changes)</li>
+  <li>concurrently (run multiple scripts simultaneously)</li>
 </ul>
 <h2>How to Run</h2>
 <ol>
   <li>Clone the repository.</li>
   <li>Install dependencies with <code>npm install</code>.</li>
-  <li>Run the LESS compiler with <code>npm run less</code> to watch and compile.</li>
-  <li>Open <code>index.html</code> in your browser to view the profile page.</li>
+  <li>Run the development script with <code>npm run dev</code> to watch and compile LESS, copy HTML, and images.</li>
+  <li>Or run <code>npm run build</code> to build once for deployment.</li>
+  <li>Open <code>build/index.html</code> (or <code>index.html</code> in dev) in your browser to view the profile page.</li>
 </ol>

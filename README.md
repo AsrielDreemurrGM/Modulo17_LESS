@@ -10,6 +10,9 @@
   for UI elements, and the <strong>less-watch-compiler</strong> plugin was used
   to automate the compilation process.
 </p>
+<p>
+  🔗 Live Demo: <a href="https://less-profile-page-asrieldreemurrgm.vercel.app/" target="_blank">View on Vercel</a>
+</p>
 <h2>Technologies Used</h2>
 <ul>
   <li>HTML5</li>
